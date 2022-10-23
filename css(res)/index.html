@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS-RES</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#About">About</a></li>
+            <li class="topnav-right"><a href="#Sign Up">Sign Up</a></li>
+            <li  class="topnav-right"><a href="#Sign In">Sign In</a></li>
+            <li class="dropdown"><a href="javascript:void(0)" onclick="dropdownclick()">	
+&#9776;</a></li>
+            </ul>
+        </nav>
+        <div class="container" id="Section-1-gradient">
+            <div class="row ">
+            <div class="col-6 form ">
+                <div class="leftside-col"  >
+                    <h1 class="larger">Crazy Radness</h1>
+                    <h1  class="larger">Made For Developers</h1>
+                </div>
+                <form>
+                    <div class="leftside-col" > <h1>Username</h1>
+                    <input class="inputbox" placeholder="Username" name="Username" type="text">
+                    <h1>Password</h1>
+                    <input class="inputbox" placeholder="Password" name="Password" type="text"></div>
+                   
+                    
+                </form>
+                </div>
+                <div class="col-6">
+                    <div class="rightside-col">
+                       <iframe width="515" height="300" src="https://www.youtube.com/embed/aeHG3HMd6SI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    </div>
+                 
+                </div>
+            </div>
+        
+        </div>
+          
+        <header>
+            <h1 class="section2Header">The Standard of Awesomneness</h1>
+        </header>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                        <img src="devIcon.png">
+                        </div>                        
+                        <label>Chat With Me</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div><div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                        <img src="devIcon.png">
+                        </div>                        
+                        <label>Learn to Code</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div><div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                        <img src="devIcon.png">
+                        </div>                        
+                        <label>Build an Empire</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="LearnMore">Learn More</button>
+               </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+              <div class="col-7">
+                <article>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </article>              
+            </div>
+            <div class="col-5">
+                <div class="slopeicon">
+                    <img src="iOS_Slope.png">
+                </div>
+            </div>
+            </div>          
+        </div>
+        <footer class="footy">
+            <div class="row">
+                
+                    <div class="col-3 sec">
+                        <h1>Company</h1>
+                        <p>About</p>
+                        <p>Blog</p>
+                        <p>Careers</p>
+                    </div> <div class="col-3 sec">
+                        <h1>Product</h1>
+                        <p>Computers</p>
+                        <p>iPads</p>
+                        <p>iPhones</p>
+                    </div> 
+                    <div class="col-3 sec">
+                        <h1>Learn More</h1>
+                        <p>Developers</p>
+                        <p>Designer</p>
+                        <p>Hackers</p>
+                    </div> <div class="col-3 sec">
+                        <h1>Support</h1>
+                        <p>Help</p>
+                        <p>QA</p>
+                        <p>Contact</p>
+                    </div>
+                </div>
+        
+        </footer>
+        <script>
+            function dropdownclick(){
+                var x = document.getElementById("dropdownClick");
+                if (x.className=== "topnav"){
+                    x.className += " responsive";
+                    /* change to responsive*/
+                    }
+                else{
+                    x.className= "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>
